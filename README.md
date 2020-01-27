@@ -1,2 +1,2 @@
 # xon
-The XON programming language
+The xon is an open-source programming language
