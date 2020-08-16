@@ -1,0 +1,50 @@
+{
+    "name": "@xon/cli",
+    "author": "Nizami",
+    "version": "1.0.0",
+    "description": "XON CLI",
+    "bugs": {
+        "url": "https://github.com/xon-lang/cli/issues"
+    },
+    "homepage": "https://github.com/xon-lang/cli#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xon-lang/cli.git"
+    },
+    "keywords": [
+        "xon",
+        "cli",
+        "compiler",
+        "translator",
+        "programming language"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "scripts": {
+        "test": "jest --no-cache",
+        "build": "scripts/build.sh",
+        "pre-commit": "scripts/pre-commit.sh",
+        "preversion": "npm run test",
+        "version": "npm run build",
+        "postversion": "git push && cd dist && npm publish --access public && rimraf ../dist"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run pre-commit"
+        }
+    },
+    "devDependencies": {
+        "@types/jest": "^26.0.9",
+        "@types/node": "^14.0.27",
+        "create-ts-index": "^1.13.3",
+        "husky": "^4.2.5",
+        "jest": "^26.4.0",
+        "rimraf": "^3.0.2",
+        "ts-jest": "^26.2.0",
+        "typescript": "^3.9.7"
+    },
+    "dependencies": {
+        "@xon/translator-ts": "^1.0.1"
+    }
+}

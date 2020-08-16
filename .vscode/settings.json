@@ -1,0 +1,20 @@
+{
+    "git.postCommitCommand": "sync",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#9569bb"
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+        "source.fixAll": true
+    },
+    "files.autoSave": "afterDelay",
+    "prettier.tabWidth": 4,
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
