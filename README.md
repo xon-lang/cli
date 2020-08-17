@@ -5,6 +5,7 @@
 ## Usage
 
 ```bash
+npm -g i @xon/cli
 xon program.xon
 ```
 
