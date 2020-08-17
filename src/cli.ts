@@ -1,9 +1,11 @@
+#!/usr/bin/env node
+
 import { parseCode, ProgramTree } from "@xon/ast";
 import { ProgramTranslator } from "@xon/translator-ts";
 import * as fs from "fs";
 import * as path from "path";
 
-function run(filename: string) {
+function compile(filename: string) {
     if (!filename) return console.log("No input file");
 
     const inputPath = path.resolve(process.cwd(), filename);
@@ -19,4 +21,4 @@ function run(filename: string) {
     fs.writeFileSync(outputPath, translator.translate());
 }
 
-run(process.argv.slice(2)[0]);
+compile(process.argv.slice(2)[0]);
