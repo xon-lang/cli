@@ -38,17 +38,17 @@
         "xon": "./src/cli.js"
     },
     "devDependencies": {
-        "@types/jest": "^26.0.9",
-        "@types/node": "^14.6.0",
+        "@types/jest": "^26.0.12",
+        "@types/node": "^14.6.2",
         "create-ts-index": "^1.13.5",
         "husky": "^4.2.5",
         "jest": "^26.4.2",
         "rimraf": "^3.0.2",
-        "ts-jest": "^26.2.0",
+        "ts-jest": "^26.3.0",
         "typescript": "^3.9.7"
     },
     "dependencies": {
-        "@xon/translator-ts": "^1.0.2",
+        "@xon/translator-ts": "^1.1.7",
         "chalk": "^4.1.0"
     }
 }
