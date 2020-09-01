@@ -1,7 +1,7 @@
 {
     "name": "@xon/cli",
     "author": "Nizami",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "XON CLI",
     "bugs": {
         "url": "https://github.com/xon-lang/cli/issues"
