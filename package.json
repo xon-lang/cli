@@ -38,8 +38,8 @@
         "xon": "./src/cli.js"
     },
     "devDependencies": {
-        "@types/jest": "^26.0.12",
-        "@types/node": "^14.6.2",
+        "@types/jest": "^26.0.13",
+        "@types/node": "^14.6.3",
         "create-ts-index": "^1.13.5",
         "husky": "^4.2.5",
         "jest": "^26.4.2",
